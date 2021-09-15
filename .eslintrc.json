@@ -1,0 +1,10 @@
+{
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+    "parser": "@typescript-eslint/parser",
+    "plugins": ["@typescript-eslint"],
+    "rules": {
+        "max-len": [2, 160],
+        "@typescript-eslint/no-this-alias": "off"
+    },
+    "ignorePatterns": ["node_modules", "dist"]
+}
